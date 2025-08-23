@@ -1,7 +1,7 @@
-import { SignIn } from "@clerk/nextjs";
+import { SignInView } from "@/modules";
 
 const SignInPage = () => {
-  return <SignIn />;
+  return <SignInView />;
 };
 
 export default SignInPage;
